@@ -13,4 +13,13 @@
 
 ## Codebase and Tech Stack
 
-TBD
+> Navigate to #yalejpn and refer to respective README file
+
+```js
+
+const techStack = `${"Vue"} ${3}`
+console.log(techStack)
+// vue.js : frontend : Vue 3, JS, HTML, CSS
+
+```
+
