@@ -1,18 +1,16 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import NavBar from './components/NavBar.vue'
+import SplashHome from './components/SplashHome.vue'
+import IntroYale from './components/IntroYale.vue'
 </script>
 
 <template>
-  <div id="__contents">
-    <header>
-      <div class="wrapper">
-        <nav>
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-        </nav>
-      </div>
-    </header>
-    <RouterView />
+  <div id="yj">
+    <NavBar />
+    <main class="yale-tour">
+      <SplashHome />
+      <IntroYale />
+    </main>
   </div>
 </template>
 

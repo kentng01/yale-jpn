@@ -1,5 +1,85 @@
 @import './root.css';
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: #fff;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+#__jp__,
+.-jp {
+  font-family: 'Gen Jyuu 0', sans-serif;
+}
+
+.-jp-b {
+  font-family: 'Gen Jyuu 1', sans-serif;
+}
+
+#__en__,
+.-en {
+  font-family: 'Nunito', sans-serif;
+}
+
+.-en-4 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+.-en-5 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+}
+
+.-en-6 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.-en-7 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.-wpx {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
 /* @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
