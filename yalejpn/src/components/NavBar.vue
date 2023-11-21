@@ -34,7 +34,7 @@ export default {
           <a :href="item.link" id="__jp__" class="nav-link" v-if="language.currLanguage === 'jp'">
             {{ item.jp }}
           </a>
-          <a id="__en__" class="nav-link" v-else>
+          <a :href="item.link" id="__en__" class="nav-link" v-else>
             {{ item.en }}
           </a>
         </li>

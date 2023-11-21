@@ -3,6 +3,9 @@ import NavBar from './components/NavBar.vue'
 import SplashHome from './components/SplashHome.vue'
 import IntroYale from './components/IntroYale.vue'
 import VideoTour from './components/VideoTour.vue'
+import AboutYale from './components/AboutYale.vue'
+import CreatorsPage from './components/CreatorsPage.vue'
+import FooterBar from './components/FooterBar.vue'
 </script>
 
 <template>
@@ -14,7 +17,12 @@ import VideoTour from './components/VideoTour.vue'
       <SplashHome />
       <IntroYale />
       <VideoTour />
+      <AboutYale />
+      <CreatorsPage />
     </main>
+    <div class="yj-footer">
+      <FooterBar />
+    </div>
   </div>
 </template>
 

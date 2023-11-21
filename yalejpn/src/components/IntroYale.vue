@@ -36,6 +36,24 @@ export default {
           <figure class="gallery-item gallery-item-5 -i5 -en-4" data-text="空・Aerial"></figure>
         </div>
       </div>
+      <div class="intro-blurb">
+        <div class="blurb-wrapper">
+          <p class="-blurb -jp" v-if="language.currLanguage === 'jp'">
+            <span class="-jp-b">目的：</span>
+            イェール大学は世界的に有名な大学です。
+            僕達の個人的には、イェール大学は特に日本においてもっと世界的な活動を行うことができると信じています。
+            ということで、期末の発表はイェール大学を紹介する動画を作って、発表したいと思います。
+          </p>
+          <p class="-blurb -en" v-else>
+            <span class="-en-6">Purpose: </span>
+            Yale University is a world-renown institution.
+            However, we personally believe that Yale can still do more 
+            in regards to international outreach, particularly in Japan. 
+            Hence, for our final project presentation, we have
+            chosen to create a tour video of Yale University in Japanese.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -69,6 +87,7 @@ export default {
   gap: 1em;
   height: 500px;
   transition: all 400ms;
+  padding-bottom: 2rem;
 }
 
 .y-gallery:hover .gallery-item {
@@ -145,12 +164,14 @@ export default {
 .intro-wrapper {
   max-width: 768px;
   margin: 0 auto;
+  padding-bottom: 8rem;
 }
 
 .intro-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 4rem;
 }
 
 .intro-head {
@@ -159,5 +180,18 @@ export default {
 
 .intro-cc {
   margin-top: 4rem;
+}
+
+.intro-blurb {
+  margin: 1.75rem 0 0 0
+}
+
+.blurb-wrapper {
+  padding: 0 0 0 1rem;
+  border-left: solid 6px var(--y-blue);
+}
+
+.-blurb {
+  font-size: 1.375rem;
 }
 </style>
