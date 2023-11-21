@@ -121,7 +121,7 @@ export default {
   bottom: 0.5rem;
   right: 1rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-  background: linear-gradient(rgba(0, 53, 107, 0.8), rgba(0, 53, 107, 0.8));
+  background: linear-gradient(rgba(0, 119, 204, 0.7), rgba(0, 119, 204, 0.7));
   width: 3.25rem;
   z-index: calc(1 + 9);
 }

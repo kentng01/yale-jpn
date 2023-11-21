@@ -15,15 +15,24 @@ export default {
   <section id="intro" class="intro-body -wpx">
     <div class="intro-wrapper">
       <div class="intro-title">
-        <h1 class="intro-head -jp-b" v-if="language.currLanguage === 'jp'">紹介</h1>
-        <h1 class="intro-head -en-7" v-else>Introduction</h1>
+        <h1 class="intro-head -jp-b" v-if="language.currLanguage === 'jp'">紹介の事</h1>
+        <h1 class="intro-head -en-7" v-else>INTRODUCTION</h1>
       </div>
       <div class="intro-cc">
         <div class="y-gallery">
           <figure class="gallery-item gallery-item-1 -i1 -en-4" data-text="寮・Dorms"></figure>
-          <figure class="gallery-item gallery-item-2 -i2 -en-4" data-text="食堂・Dining Halls"></figure>
-          <figure class="gallery-item gallery-item-3 -i3 -en-4" data-text="キャンパス・Campus"></figure>
-          <figure class="gallery-item gallery-item-4 -i4 -en-4" data-text="図書館・Libraries"></figure>
+          <figure
+            class="gallery-item gallery-item-2 -i2 -en-4"
+            data-text="食堂・Dining Halls"
+          ></figure>
+          <figure
+            class="gallery-item gallery-item-3 -i3 -en-4"
+            data-text="キャンパス・Campus"
+          ></figure>
+          <figure
+            class="gallery-item gallery-item-4 -i4 -en-4"
+            data-text="図書館・Libraries"
+          ></figure>
           <figure class="gallery-item gallery-item-5 -i5 -en-4" data-text="空・Aerial"></figure>
         </div>
       </div>
@@ -58,7 +67,6 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1em;
-  width: 800px;
   height: 500px;
   transition: all 400ms;
 }
@@ -150,6 +158,6 @@ export default {
 }
 
 .intro-cc {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 </style>
