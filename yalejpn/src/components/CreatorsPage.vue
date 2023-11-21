@@ -95,15 +95,15 @@ export default {
 
 .crt-cards {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  gap: 3rem;
+  justify-content: center;
+  gap: 5rem;
   margin-top: 3rem;
 }
 
 .card-item {
   padding: 1rem;
-  width: 18rem;
+  width: 17rem;
   height: 23rem;
   background: var(--y-blue);
   border-radius: 5px;
@@ -111,6 +111,7 @@ export default {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
   border-bottom: solid 0.5rem #fff;
   user-select: none;
+  transition: 300ms ease;
 }
 
 .-p1 {
@@ -177,5 +178,11 @@ export default {
   color: #fff;
   font-size: 1.125rem;
   text-align: center;
+}
+
+@media (hover: hover) {
+  .card-item:hover {
+    background: var(--7-blue);
+  }
 }
 </style>

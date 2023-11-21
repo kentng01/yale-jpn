@@ -46,11 +46,10 @@ export default {
           </p>
           <p class="-blurb -en" v-else>
             <span class="-en-6">Purpose: </span>
-            Yale University is a world-renown institution.
-            However, we personally believe that Yale can still do more 
-            in respect to international outreach, particularly in Japan. 
-            Hence, for our final project presentation, we have
-            elected to create a video touring Yale University in Japanese.
+            Yale University is a world-renown institution. However, we personally believe that Yale
+            can still do more in respect to international outreach, particularly in Japan. Hence,
+            for our final project presentation, we have elected to create a video touring Yale
+            University in Japanese.
           </p>
         </div>
       </div>
@@ -164,7 +163,7 @@ export default {
 .intro-wrapper {
   max-width: 768px;
   margin: 0 auto;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
 }
 
 .intro-title {
@@ -183,7 +182,7 @@ export default {
 }
 
 .intro-blurb {
-  margin: 1.75rem 0 0 0
+  margin: 1.75rem 0 0 0;
 }
 
 .blurb-wrapper {

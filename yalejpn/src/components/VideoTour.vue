@@ -81,7 +81,8 @@ export default {
 }
 .tour-topics {
   margin: 2rem 0;
-  padding-bottom: 2rem;
+  padding: 0 0 0 1rem;
+  border-left: solid 6px #fff;
 }
 .tour-contents {
   color: #fff;
