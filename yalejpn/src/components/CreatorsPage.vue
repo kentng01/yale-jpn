@@ -167,6 +167,7 @@ export default {
   background-repeat: no-repeat;
   border-bottom: solid 0.5rem #fff;
   border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
 }
 .collab-dets {
   width: 100%;
