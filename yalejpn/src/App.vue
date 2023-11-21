@@ -6,8 +6,10 @@ import IntroYale from './components/IntroYale.vue'
 
 <template>
   <div id="yj">
-    <NavBar />
-    <main class="yale-tour">
+    <div class="yj-nav">
+      <NavBar />
+    </div>
+    <main class="yj-tour">
       <SplashHome />
       <IntroYale />
     </main>

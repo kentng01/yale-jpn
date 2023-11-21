@@ -53,7 +53,6 @@ export default {
   position: absolute;
   width: 100%;
   z-index: calc(1 + 99);
-  /* background: linear-gradient(rgba(0, 53, 107, 0.5), rgba(0, 53, 107, 0.5)); */
 }
 
 .nav-bar {
@@ -101,6 +100,31 @@ export default {
   height: 2px;
   background-color: #fff;
   transition: width 300ms ease;
+}
+
+.sakura-bg {
+  position: fixed;
+  background-image: url('@/assets/images/sakura.png');
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  opacity: 0.6;
+}
+
+#jp-en {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.625rem;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  background: linear-gradient(rgba(0, 53, 107, 0.8), rgba(0, 53, 107, 0.8));
+  width: 3.25rem;
+  z-index: calc(1 + 9);
 }
 
 @media (hover: hover) {
