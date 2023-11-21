@@ -48,9 +48,9 @@ export default {
             <span class="-en-6">Purpose: </span>
             Yale University is a world-renown institution.
             However, we personally believe that Yale can still do more 
-            in regards to international outreach, particularly in Japan. 
+            in respect to international outreach, particularly in Japan. 
             Hence, for our final project presentation, we have
-            chosen to create a tour video of Yale University in Japanese.
+            elected to create a video touring Yale University in Japanese.
           </p>
         </div>
       </div>
