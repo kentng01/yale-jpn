@@ -2,6 +2,7 @@
 import NavBar from './components/NavBar.vue'
 import SplashHome from './components/SplashHome.vue'
 import IntroYale from './components/IntroYale.vue'
+import VideoTour from './components/VideoTour.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import IntroYale from './components/IntroYale.vue'
     <main class="yj-tour">
       <SplashHome />
       <IntroYale />
+      <VideoTour />
     </main>
   </div>
 </template>

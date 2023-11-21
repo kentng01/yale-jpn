@@ -104,7 +104,6 @@ export default {
 
 .sakura-bg {
   position: fixed;
-  background-image: url('@/assets/images/sakura.png');
   background-repeat: no-repeat;
   bottom: 0;
   right: 0;
