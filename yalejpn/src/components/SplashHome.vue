@@ -39,7 +39,7 @@ export default {
   min-height: 85vh;
   margin-bottom: calc(100vh - 85vh);
   background-image: linear-gradient(rgba(0, 53, 107, 0.7), rgba(0, 53, 107, 0.7)),
-    url('@/assets/images/splash/splash.jpg');
+    url('@/assets/images/splash/splash-qr.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
