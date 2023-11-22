@@ -59,23 +59,23 @@ export default {
 
 <style scoped>
 .-i1 {
-  --img: url('@/assets/images/intro/murray.jpg');
+  --img: url('@/assets/images/intro/murray-fastload.jpg');
 }
 
 .-i2 {
-  --img: url('@/assets/images/intro/commons.jpg');
+  --img: url('@/assets/images/intro/commons-fastload.jpg');
 }
 
 .-i3 {
-  --img: url('@/assets/images/intro/ccampus.jpg');
+  --img: url('@/assets/images/intro/ccampus-fastload.jpg');
 }
 
 .-i4 {
-  --img: url('@/assets/images/intro/lib.jpg');
+  --img: url('@/assets/images/intro/lib-fastload.jpg');
 }
 
 .-i5 {
-  --img: url('@/assets/images/intro/aerial.jpg');
+  --img: url('@/assets/images/intro/aerial-fastload.jpg');
 }
 
 .y-gallery {
@@ -212,7 +212,7 @@ export default {
   }
 
   .intro-title {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .intro-wrapper {

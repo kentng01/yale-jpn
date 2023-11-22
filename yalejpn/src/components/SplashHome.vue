@@ -39,7 +39,7 @@ export default {
   min-height: 85vh;
   margin-bottom: calc(100vh - 85vh);
   background-image: linear-gradient(rgba(0, 53, 107, 0.7), rgba(0, 53, 107, 0.7)),
-    url('@/assets/images/splash/splash-qr.jpg');
+    url('@/assets/images/splash/splash-fastload.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -92,6 +92,9 @@ export default {
 }
 
 @media only screen and (max-width: 567px) {
+  .splash-body {
+    clip-path: polygon(0 85%, 50% 95%, 100% 85%, 100% 0, 0 0);
+  }
   .-brk {
     display: block;
   }

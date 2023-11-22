@@ -21,7 +21,7 @@ export default {
       <div class="crt-cards">
         <div class="card-item">
           <div class="card-pic -p1">
-            <img src="@/assets/images/creators/ken.jpeg" class="-pfp" alt="KT" />
+            <img src="@/assets/images/creators/ken-fastload.jpg" class="-pfp" alt="KT" />
           </div>
           <h3 class="card-name -jp-b" v-if="language.currLanguage === 'jp'">トウ<br />ケニー</h3>
           <h3 class="card-name -en-6" v-else>Kenny<br />'26</h3>
@@ -34,7 +34,7 @@ export default {
         </div>
         <div class="card-item">
           <div class="card-pic -p2">
-            <img src="@/assets/images/creators/darw.png" class="-pfp" alt="DC" />
+            <img src="@/assets/images/creators/darw-fastload.jpg" class="-pfp" alt="DC" />
           </div>
           <h3 class="card-name -jp-b" v-if="language.currLanguage === 'jp'">
             クルーズ <br />
@@ -73,7 +73,7 @@ export default {
 .crt-creds {
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 53, 107, 0.7), rgba(0, 53, 107, 0.7)),
-    url('@/assets/images/creators/umeda.jpeg');
+    url('@/assets/images/creators/umeda-fastload.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -114,11 +114,11 @@ export default {
 }
 
 .-p1 {
-  background: url('@/assets/images/creators/urname.jpeg');
+  background: url('@/assets/images/creators/urname-fastload.jpg');
 }
 
 .-p2 {
-  background: url('@/assets/images/creators/juju.png');
+  background: url('@/assets/images/creators/juju-fastload.jpg');
 }
 
 .card-pic {
@@ -160,7 +160,7 @@ export default {
   flex-direction: column;
   justify-content: flex-end;
   height: 20rem;
-  background: url('@/assets/images/creators/dk-2.png');
+  background: url('@/assets/images/creators/dk-fastload.jpg');
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
