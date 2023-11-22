@@ -37,6 +37,9 @@ export default {
 </template>
 
 <style scoped>
+.tour-wrapper {
+  padding: 0 1rem;
+}
 .tour-subwrap {
   display: flex;
   justify-content: center;
@@ -87,5 +90,11 @@ export default {
 .tour-contents {
   color: #fff;
   font-size: 1.125rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .-tsua {
+    height: 321px;
+  }
 }
 </style>

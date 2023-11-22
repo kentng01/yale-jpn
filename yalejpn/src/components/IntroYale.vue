@@ -89,8 +89,40 @@ export default {
   padding-bottom: 2rem;
 }
 
-.y-gallery:hover .gallery-item {
-  filter: grayscale(100%) opacity(24%);
+@media (hover: hover) {
+  .y-gallery:hover .gallery-item {
+    filter: grayscale(100%) opacity(24%);
+  }
+
+  .y-gallery .gallery-item:hover {
+    filter: grayscale(0%) opacity(100%);
+  }
+
+  .y-gallery:has(.gallery-item-1:hover) {
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  }
+
+  .y-gallery:has(.gallery-item-2:hover) {
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  }
+
+  .y-gallery:has(.gallery-item-3:hover) {
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+  }
+
+  .y-gallery:has(.gallery-item-4:hover) {
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+  }
+
+  .y-gallery:has(.gallery-item-5:hover) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+  }
+
+  .gallery-item:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 400ms;
+  }
 }
 
 .gallery-item {
@@ -101,30 +133,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.y-gallery .gallery-item:hover {
-  filter: grayscale(0%) opacity(100%);
-}
-
-.y-gallery:has(.gallery-item-1:hover) {
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
-}
-
-.y-gallery:has(.gallery-item-2:hover) {
-  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
-}
-
-.y-gallery:has(.gallery-item-3:hover) {
-  grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
-}
-
-.y-gallery:has(.gallery-item-4:hover) {
-  grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
-}
-
-.y-gallery:has(.gallery-item-5:hover) {
-  grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
 }
 
 .gallery-item:nth-child(odd) {
@@ -150,12 +158,6 @@ export default {
   transition: all 400ms;
 }
 
-.gallery-item:hover::after {
-  transform: translateY(0);
-  opacity: 1;
-  transition-delay: 400ms;
-}
-
 .intro-body {
   min-height: 100vh;
 }
@@ -163,7 +165,7 @@ export default {
 .intro-wrapper {
   max-width: 768px;
   margin: 0 auto;
-  padding-bottom: 10rem;
+  padding: 0 1rem 10rem 1rem;
 }
 
 .intro-title {
@@ -192,5 +194,33 @@ export default {
 
 .-blurb {
   font-size: 1.375rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .-blurb {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .gallery-item::after {
+    display: none;
+  }
+
+  .y-gallery {
+    gap: 0.25rem;
+  }
+
+  .intro-title {
+    padding-top: 2rem;
+  }
+
+  .intro-wrapper {
+    padding-bottom: 8rem;
+  }
+
+  .-blurb {
+    font-size: 1.125rem;
+  }
 }
 </style>

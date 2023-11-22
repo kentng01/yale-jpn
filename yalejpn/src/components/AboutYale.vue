@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <section id="about" class="abt-contents">
+  <section id="about" class="abt-contents -wpx">
     <div class="abt-wrapper">
       <div class="abt-head">
         <h1 class="abt-title -jp-b" v-if="language.currLanguage === 'jp'">概要</h1>
@@ -26,11 +26,6 @@ export default {
 </template>
 
 <style scoped>
-.abt-wrapper {
-  max-width: 768px;
-  margin: 0 auto;
-}
-
 .abt-contents {
   min-height: 100vh;
 }

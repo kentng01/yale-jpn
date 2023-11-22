@@ -13,7 +13,7 @@ export default {
 
 <template>
   <section id="creators" class="crt-creds">
-    <div class="crt-wrapper">
+    <div class="crt-wrapper -wpx">
       <div class="crt-head">
         <h1 class="crt-title -jp-b" v-if="language.currLanguage === 'jp'">僕達</h1>
         <h1 class="crt-title -en-7" v-else>CREATORS</h1>
@@ -53,7 +53,7 @@ export default {
         <div class="collab-wrap">
           <div class="collab-dets">
             <p class="collab-blurb -jp" v-if="language.currLanguage === 'jp'">
-              この授業の為に、一緒に研究をしたり脚本を書いたり動画を作ったりしました。
+              この授業の為に一緒に研究をしたり脚本を書いたり動画を作ったりしました。
             </p>
             <p class="collab-blurb -en" v-else>
               We collaboratively researched Yale, wrote the script, and created the video.
@@ -67,8 +67,7 @@ export default {
 
 <style scoped>
 .crt-wrapper {
-  max-width: 768px;
-  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .crt-creds {
@@ -97,7 +96,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 4rem;
   margin-top: 3rem;
 }
 
@@ -111,7 +110,7 @@ export default {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
   border-bottom: solid 0.5rem #fff;
   user-select: none;
-  transition: 300ms ease;
+  transition: 300ms ease-in-out;
 }
 
 .-p1 {
@@ -126,7 +125,7 @@ export default {
   position: relative;
   background-size: cover;
   height: 10rem;
-  border-radius: 5px 5px 0 0;
+  border-radius: 4px 5px 0 0;
 }
 
 .-pfp {
@@ -153,7 +152,7 @@ export default {
   line-height: 1.6;
 }
 .crt-collabs {
-  padding: 4rem 0 6rem 0;
+  padding: 4.5rem 2rem 8rem 2rem;
 }
 .collab-wrap {
   position: relative;
@@ -168,10 +167,11 @@ export default {
   border-bottom: solid 0.5rem #fff;
   border-radius: 5px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+  transition: 300ms ease-in-out;
 }
 .collab-dets {
   width: 100%;
-  padding: 10% 6% 3%;
+  padding: 10% 2% 3%;
   margin: 0 auto;
   background: -webkit-linear-gradient(top, transparent, rgb(0, 53, 107));
 }
@@ -184,6 +184,30 @@ export default {
 @media (hover: hover) {
   .card-item:hover {
     background: var(--7-blue);
+  }
+  .collab-wrap:hover {
+    filter: brightness(1.1);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .crt-cards {
+    gap: 1.5rem;
+  }
+
+  .crt-collabs {
+    padding: 4rem 0 6rem 0;
+  }
+
+  .card-name {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .crt-cards {
+    gap: 2rem;
+    flex-direction: column;
   }
 }
 </style>

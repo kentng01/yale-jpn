@@ -38,13 +38,13 @@ export default {
             {{ item.en }}
           </a>
         </li>
-        <li id="jp-en" class="btn-wrapper -flag">
-          <button class="lang-btn" @click="toggleLanguage">
-            {{ language.currLanguage === 'jp' ? '🇯🇵' : '🇺🇸' }}
-          </button>
-        </li>
       </ul>
     </nav>
+    <div id="jp-en" class="btn-wrapper -flag">
+      <button class="lang-btn" @click="toggleLanguage">
+        {{ language.currLanguage === 'jp' ? '🇯🇵' : '🇺🇸' }}
+      </button>
+    </div>
   </header>
 </template>
 
@@ -133,6 +133,12 @@ export default {
 
   .lang-btn:hover {
     transform: scale(1.075);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-bar {
+    display: none;
   }
 }
 </style>
