@@ -140,5 +140,9 @@ export default {
   .nav-bar {
     display: none;
   }
+  #jp-en {
+    bottom: unset;
+    top: 0.5rem;
+  }
 }
 </style>
