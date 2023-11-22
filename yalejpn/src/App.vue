@@ -26,4 +26,18 @@ import FooterBar from './components/FooterBar.vue'
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+@keyframes fade {
+    from {
+      opacity: 0;
+    } to {
+      opacity: 1;
+    }
+}
+
+#yj {
+    animation: fade 1.5s linear forwards;
+}
+
+</style>
