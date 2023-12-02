@@ -2,6 +2,7 @@
 import OverlayNav from './components/OverlayNav.vue'
 import SplashYale from './components/SplashYale.vue'
 import AboutInfo from './components/AboutInfo.vue'
+import TourVideo from './components/TourVideo.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import AboutInfo from './components/AboutInfo.vue'
     <OverlayNav />
     <SplashYale />
     <AboutInfo />
+    <TourVideo />
   </div>
 </template>
 

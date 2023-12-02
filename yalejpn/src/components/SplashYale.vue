@@ -6,7 +6,7 @@ const creds = ref('：トウとクルーズによるプレゼン：')
 </script>
 
 <template>
-  <main class="-splash-yale">
+  <main id="home" class="-splash-yale">
     <div class="-splash-container -wpx">
       <div class="-splash-title">
         <h1 class="-t-x">{{ yale }}</h1>
@@ -19,7 +19,6 @@ const creds = ref('：トウとクルーズによるプレゼン：')
 <style scoped>
 .-splash-yale {
   min-height: 100vh;
-  margin-bottom: calc(100vh - 85vh);
   background:
     linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
     url('@/assets/images/splash/splash-fastload.jpg') no-repeat scroll center/cover;
@@ -40,7 +39,7 @@ const creds = ref('：トウとクルーズによるプレゼン：')
 }
 
 .-c-x {
-    padding-top: 0.5rem;
+  padding-top: 0.5rem;
   font-size: 2rem;
 }
 </style>
