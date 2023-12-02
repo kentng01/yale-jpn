@@ -5,7 +5,8 @@ import TOU from '../../assets/images/creators/ken.jpg'
 const kt = ref(TOU)
 const ktjp = ref('トウ・ケニー')
 const yale = ref("イェール大学 '26")
-const ktmajor = ref('コンピューター科学と東アジア研究')
+const ktmajor1 = ref('• コンピューター科学')
+const ktmajor2 = ref('• 東アジア研究')
 </script>
 <template>
   <div class="-bott-l">
@@ -14,7 +15,8 @@ const ktmajor = ref('コンピューター科学と東アジア研究')
       <div class="-desc -r-wrap">
         <h1 class="-kt-namae">{{ ktjp }}</h1>
         <p class="-kt-desc">{{ yale }}</p>
-        <p class="-kt-desc">{{ ktmajor }}</p>
+        <p class="-kt-desc -m-x">{{ ktmajor1 }}</p>
+        <p class="-kt-desc -m-x">{{ ktmajor2 }}</p>
       </div>
     </div>
   </div>
@@ -58,6 +60,11 @@ const ktmajor = ref('コンピューター科学と東アジア研究')
 
 .-kt-desc {
   font-size: 1rem;
+  font-weight: 500;
+}
+
+.-m-x {
+  font-weight: 300;
 }
 
 @media (hover: hover) {

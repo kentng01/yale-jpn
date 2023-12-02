@@ -11,7 +11,7 @@
       </div>
       <div class="-tour-topics">
         <p class="-tour-contents">
-          イェール大学へようこそ！
+          <span class="-b">イェール大学へようこそ！</span>
           <br /><br />
           今日、僕達は色々なことを話し合うつもりです。
           <br />
@@ -23,6 +23,10 @@
 </template>
 
 <style scoped>
+.-b {
+  font-weight: 600;
+}
+
 .-tour-container {
   min-height: 100vh;
   padding: 5rem 0;

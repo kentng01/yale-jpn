@@ -5,7 +5,7 @@ import CRUZ from '../../assets/images/creators/cruz.jpg'
 const dc = ref(CRUZ)
 const dcjp = ref('クルーズ・ ダーウィン')
 const yale = ref("イェール大学 '26")
-const dcmajor = ref('コンピューティングと言語学')
+const dcmajor = ref('コンピューティングと言語学 •')
 </script>
 <template>
   <div class="-bott-r">
@@ -14,7 +14,7 @@ const dcmajor = ref('コンピューティングと言語学')
       <div class="-desc -r-wrap">
         <h1 class="-dc-namae">{{ dcjp }}</h1>
         <p class="-dc-desc">{{ yale }}</p>
-        <p class="-dc-desc">{{ dcmajor }}</p>
+        <p class="-dc-desc -m-x">{{ dcmajor }}</p>
       </div>
     </div>
   </div>
@@ -58,6 +58,11 @@ const dcmajor = ref('コンピューティングと言語学')
 
 .-dc-desc {
   font-size: 1rem;
+  font-weight: 500;
+}
+
+.-m-x {
+  font-weight: 300;
 }
 
 @media (hover: hover) {
