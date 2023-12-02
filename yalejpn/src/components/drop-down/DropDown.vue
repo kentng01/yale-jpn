@@ -73,7 +73,9 @@ export default {
   <div class="_dropdown_">
     <div v-for="(faq, index) in faqs" :key="index" class="-faqs-x">
       <div @click="toggleFAQ(index)" class="faq-item">
-        <h3 class="-q"><font-awesome-icon :icon="['fas', 'sort-down']" class="-d-arr" />{{ faq.q }}</h3>
+        <h3 class="-q">
+          <font-awesome-icon :icon="['fas', 'sort-down']" class="-d-arr" />{{ faq.q }}
+        </h3>
         <div v-if="faq.open" class="-a-x">
           <p class="-a">{{ faq.a }}</p>
         </div>

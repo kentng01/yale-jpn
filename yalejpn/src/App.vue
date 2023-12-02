@@ -1,4 +1,5 @@
 <script setup>
+import MobileOverlay from './components/MobileOverlay.vue'
 import OverlayNav from './components/OverlayNav.vue'
 import SplashYale from './components/SplashYale.vue'
 import IntroBit from './components/IntroBit.vue'
@@ -9,6 +10,7 @@ import FinalCredits from './components/FinalCredits.vue'
 
 <template>
   <div id="yj">
+    <MobileOverlay msg="Error" />
     <OverlayNav />
     <SplashYale />
     <IntroBit />

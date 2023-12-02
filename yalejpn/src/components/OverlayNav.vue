@@ -15,6 +15,6 @@ import TopRight from './nav-components/TopRight.vue'
 <style scoped>
 .-nv {
   position: relative;
-  z-index: 9999;
+  z-index: 999;
 }
 </style>
