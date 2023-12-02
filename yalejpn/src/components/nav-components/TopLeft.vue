@@ -35,17 +35,17 @@ const links = ref([
 }
 .-l-x {
   color: var(--y-blue);
-  font-size: 1.375rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
   transition: 300ms ease;
 }
 .-arr-up {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 300;
 }
 @media (hover: hover) {
-    .-l-x:hover {
-        transform: translate(2px, -2px);
-    }
+  .-l-x:hover {
+    transform: translate(2px, -2px);
+  }
 }
 </style>

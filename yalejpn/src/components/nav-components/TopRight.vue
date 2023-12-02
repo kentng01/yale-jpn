@@ -54,9 +54,12 @@ export default {
 .-course-num {
   font-size: 2rem;
   color: var(--y-blue);
+  border-bottom: 2px solid var(--y-blue);
 }
 
 .-t-x {
+  margin-top: 0.25rem;
   font-size: 1rem;
+  color: var(--y-blue);
 }
 </style>
