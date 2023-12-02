@@ -73,7 +73,7 @@ export default {
   <div class="_dropdown_">
     <div v-for="(faq, index) in faqs" :key="index" class="-faqs-x">
       <div @click="toggleFAQ(index)" class="faq-item">
-        <h3 class="-q">{{ faq.q }}</h3>
+        <h3 class="-q"><font-awesome-icon :icon="['fas', 'sort-down']" class="-d-arr" />{{ faq.q }}</h3>
         <div v-if="faq.open" class="-a-x">
           <p class="-a">{{ faq.a }}</p>
         </div>
@@ -99,10 +99,18 @@ export default {
     background-color: var(--y-blue);
   }
 }
+
+.-d-arr {
+  padding-bottom: 0.5rem;
+}
 .-q {
   font-size: 1.5rem;
   font-weight: 400;
   padding: 0.25rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
 }
 .-a {
   font-size: 1.25rem;
