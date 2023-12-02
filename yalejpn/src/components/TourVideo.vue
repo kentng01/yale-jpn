@@ -30,6 +30,9 @@
 .-tour-container {
   min-height: 100vh;
   padding: 5rem 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url('@/assets/images/creators/umeda.jpg') no-repeat scroll center/cover;
 }
 .-tour-wrapper {
   display: flex;

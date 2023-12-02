@@ -17,27 +17,27 @@ defineProps({
       </p>
     </div>
     <div class="-msg-x">
-        <p class="-p-x">
-            Your screen size is 
-            <span class="-u">not supported</span>
-            <br />
-            for this application.
-            <font-awesome-icon :icon="['fas', 'circle-exclamation']" />
-        </p>
+      <p class="-p-x">
+        Your screen size is
+        <span class="-u">not supported</span>
+        <br />
+        for this application.
+        <font-awesome-icon :icon="['fas', 'circle-exclamation']" />
+      </p>
     </div>
   </div>
 </template>
 
 <style scoped>
 .-u {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .-p-x {
-    color: #fff;
-    font-size: 1.375rem;
-    text-align: center;
-    font-weight: 300;
+  color: #fff;
+  font-size: 1.375rem;
+  text-align: center;
+  font-weight: 300;
 }
 
 /* inspired from https://codepen.io/cbanlawi/pen/xxRBeMY */
