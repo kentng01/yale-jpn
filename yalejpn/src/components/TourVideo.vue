@@ -12,9 +12,9 @@
       <div class="-tour-topics">
         <p class="-tour-contents">
           イェール大学へようこそ！
-          <br/><br/>
+          <br /><br />
           今日、僕達は色々なことを話し合うつもりです。
-          <br/>
+          <br />
           例えば、一般情報とか図書館とか寮とか。。。
         </p>
       </div>
@@ -25,7 +25,7 @@
 <style scoped>
 .-tour-container {
   min-height: 100vh;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 .-tour-wrapper {
   display: flex;
@@ -35,13 +35,13 @@
   gap: 2rem;
 }
 .-tour-x {
-    border-left: 0.625rem solid var(--7-blue);
-    padding-left: 0.625rem;
+  border-left: 0.625rem solid var(--7-blue);
+  padding-left: 0.625rem;
 }
 .-tsua-x {
-    font-size: 2rem;
-    color: var(--y-blue);
-    padding-bottom: 0.5rem;
+  font-size: 2rem;
+  color: var(--y-blue);
+  padding-bottom: 0.5rem;
 }
 .-tsua {
   border: none;
@@ -51,6 +51,6 @@
   height: 428px;
 }
 .-tour-contents {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 </style>

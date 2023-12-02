@@ -22,8 +22,8 @@ const ktmajor = ref('コンピューター科学と東アジア研究')
 <style scoped>
 .-bott-l {
   position: fixed;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 1rem;
+  left: 1rem;
 }
 
 .-pfp {
@@ -52,7 +52,7 @@ const ktmajor = ref('コンピューター科学と東アジア研究')
 }
 
 .-kt-namae {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   color: var(--y-blue);
 }
 

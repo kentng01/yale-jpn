@@ -22,8 +22,8 @@ const dcmajor = ref('コンピューティングと言語学')
 <style scoped>
 .-bott-r {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .-pfp {

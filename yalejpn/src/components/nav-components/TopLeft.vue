@@ -23,8 +23,8 @@ const links = ref([
 <style scoped>
 .-links-wrap {
   position: fixed;
-  top: 2rem;
-  left: 2rem;
+  top: 1rem;
+  left: 1rem;
 }
 .-links-list {
   display: flex;

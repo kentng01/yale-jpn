@@ -43,8 +43,8 @@ export default {
 <style scoped>
 .-time-wrap {
   position: fixed;
-  top: 2rem;
-  right: 2rem;
+  top: 1rem;
+  right: 1rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
