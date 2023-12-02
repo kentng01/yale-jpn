@@ -15,6 +15,9 @@ html {
 
 body {
   font-size: 62.5%;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #000;
+  background-color: #fff;
 }
 
 h1,
@@ -39,6 +42,14 @@ button {
   cursor: pointer;
 }
 
+.-jpx {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.-enx {
+  font-family: 'Nunito', sans-serif;
+}
+
 .-wpx {
   max-width: 768px;
   margin: 0 auto;
@@ -47,7 +58,8 @@ button {
 @keyframes fade {
   from {
     opacity: 0;
-  } to {
+  }
+  to {
     opacity: 1;
   }
 }
