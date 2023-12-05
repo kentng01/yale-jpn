@@ -25,6 +25,6 @@ import DropDown from './drop-down/DropDown.vue'
 }
 .-faqs-declare {
   font-size: 2rem;
-  border-bottom: solid 0.375rem #000;
+  border-bottom: solid 0.375rem var(--bl-ack);
 }
 </style>

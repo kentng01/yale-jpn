@@ -153,7 +153,7 @@ const purpose = ref(
   position: absolute;
   bottom: 20px;
   background: var(--y-blue);
-  color: #fff;
+  color: var(--wh-ite);
   padding: 10px 10px 10px 14px;
   letter-spacing: 4px;
   text-transform: uppercase;

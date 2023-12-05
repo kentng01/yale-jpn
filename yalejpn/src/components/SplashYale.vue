@@ -20,7 +20,7 @@ const creds = ref('：トウとクルーズによるプレゼン：')
 .-splash-yale {
   min-height: 100vh;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    linear-gradient(var(--rgba-2)),
     url('@/assets/images/splash/splash-fastload.jpg') no-repeat scroll center/cover;
   clip-path: polygon(0 75%, 50% 85%, 100% 75%, 100% 0, 0 0);
 }

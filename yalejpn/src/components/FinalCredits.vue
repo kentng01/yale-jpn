@@ -18,7 +18,7 @@ const ty = ref('トウとクルーズによって作成されました。❤️'
 .-creds-x {
   padding: 4rem 0 8rem 0;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    linear-gradient(var(--rgba-1)),
     url('@/assets/images/creators/yourname.jpg') no-repeat scroll center/cover;
 }
 
@@ -32,6 +32,6 @@ const ty = ref('トウとクルーズによって作成されました。❤️'
 .-ty-cc {
   font-size: 1.5rem;
   padding-bottom: 0.25rem;
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid var(--bl-ack);
 }
 </style>

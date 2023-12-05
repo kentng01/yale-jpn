@@ -16,8 +16,8 @@ html {
 body {
   font-size: 62.5%;
   font-family: 'Noto Sans JP', sans-serif;
-  color: #000;
-  background-color: #fff;
+  color: var(--bl-ack);
+  background-color: var(--wh-ite);
 }
 
 h1,

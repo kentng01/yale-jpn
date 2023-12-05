@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --y-blue: #00356b;
   --1-blue: #005d9a;
   --2-blue: #0077cc;
@@ -9,8 +9,29 @@
   --7-blue: #004080;
   --8-blue: #66a5ad;
   --9-blue: #9ac9cb;
+} */
+
+:root[theme='light-mode'] {
+  --y-blue: #00356b;
+  --1-blue: #005d9a;
+  --2-blue: #0077cc;
+  --3-blue: #00a8e8;
+  --4-blue: #77c4d3;
+  --5-blue: #001f4e;
+  --6-blue: #002b5c;
+  --7-blue: #004080;
+  --8-blue: #66a5ad;
+  --9-blue: #9ac9cb;
+  --wh-ite: #fff;
+  --bl-ack: #000;
+  --rgba-1: rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85);
+  --rgba-2: rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8);
 }
 
-/* :root[theme="lx"] {} */
-
-/* :root[theme="dx"] {} */
+:root[theme='dark-mode'] {
+  --y-blue: #fff;
+  --wh-ite: #00356b;
+  --bl-ack: #fff;
+  --rgba-1: rgba(0, 53, 107, 0.85), rgba(0, 53, 107, 0.85);
+  --rgba-2: rgba(0, 53, 107, 0.8), rgba(0, 53, 107, 0.8);
+}

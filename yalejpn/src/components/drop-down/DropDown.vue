@@ -97,7 +97,7 @@ export default {
 }
 @media (hover: hover) {
   .faq-item:hover {
-    color: #fff;
+    color: var(--wh-ite);
     background-color: var(--y-blue);
   }
 }
