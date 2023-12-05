@@ -30,6 +30,7 @@
 
 :root[theme='dark-mode'] {
   --y-blue: #fff;
+  --2-blue: #dcdcdc;
   --wh-ite: #00356b;
   --bl-ack: #fff;
   --rgba-1: rgba(0, 53, 107, 0.85), rgba(0, 53, 107, 0.85);
