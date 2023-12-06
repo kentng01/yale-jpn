@@ -7,7 +7,7 @@
         <h2 class="-tsua-x">イェール大学のツアー</h2>
       </div>
       <div class="-tour-video">
-        <iframe src="https://www.youtube.com/embed/UM9XNpgrqVk" class="-tsua"></iframe>
+        <iframe src="https://www.youtube.com/embed/b2Bd_bh82Yc" class="-tsua"></iframe>
       </div>
       <div class="-tour-topics">
         <p class="-tour-contents">
